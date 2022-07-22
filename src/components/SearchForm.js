@@ -12,7 +12,7 @@ const SearchForm = () => {
     <section className="section search">
       <form className="search-form">
         <div className="form-control">
-          <label htmlFor="name">search form component</label>
+          <label htmlFor="name">Search Your Favourite Cocktail.</label>
           <input type="text" ref={searchValue} onChange={searchCock} />
         </div>
       </form>
